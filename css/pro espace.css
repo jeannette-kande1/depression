@@ -1,0 +1,144 @@
+body{
+    background-image: url(/fond/fond.jpeg);
+}
+/* C'est l'en tete et le logo  */
+header{
+    background-color: white;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+.logo span {
+    font-size: 12px;
+    color: rgb(13, 12, 12);
+
+}
+.logo h2{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+}
+
+.lien {
+    background-color: rgb(6, 6, 6);
+    padding: 25px 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.lien a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+}
+
+.risia {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.HP {
+    align-items: center;
+    padding-bottom: 2%;
+
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
+
+/* partie banniere */
+main{
+    padding: 40px ;
+}
+.banniere{
+    background-image: url(/image/pro.jpg);
+    background-size: cover;
+    height: 500px;
+}
+/* ecrit */
+
+.ecrit_en_tete{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-image: url(/fond/HP/titre.jpg);
+    height: 60px;
+    background-size: cover;
+}
+
+.ecrit p{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    height: auto;
+    width: 100%;
+    gap: 2%;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.container1{
+    display: flex;
+    height: auto;
+    width: 100%;
+    gap: 2%;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+.carte{
+    height: 380px;
+    width: 300px;
+    border: 0.70px solid rgb(245, 245, 245);
+    background: linear-gradient(to right, #57585a, #cbdbf3);
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.carte:hover {
+    transform : translateY(-5px);
+}
+button:hover {
+    transform : translateY(-5px);
+}
+.image img{
+    height: 250px;
+    width: 250px;
+   
+}
+.ecrit h3{
+    text-align: center;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+button{
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 5px;
+    padding: 8px 16px;  
+    border: none; 
+    cursor: pointer;
+}

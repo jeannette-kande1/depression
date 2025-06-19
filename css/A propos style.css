@@ -1,0 +1,199 @@
+body{
+    background-image: url(/fond/fond.jpeg);
+}
+
+/* bande de lien header */
+header{
+    background-color: white;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+.logo span {
+    font-size: 12px;
+    color: rgb(13, 12, 12);
+
+}
+.logo h2{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+}
+
+.lien {
+    background-color: rgb(6, 6, 6);
+    padding: 25px 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.lien a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+}
+
+.risia {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.HP {
+    align-items: center;
+    padding-bottom: 2%;
+
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
+
+
+
+/* SUR MOI */
+.ecrit1 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.ecrit1 h3 {
+    text-align: center;
+    margin-top: 70px;
+}
+.s{
+    height: auto;
+    width: 100%;
+}
+
+.image1 {
+    height: 70%;
+    width: 100%;
+
+}
+main{
+    padding: 40px;
+}
+
+/* PROFESIONALISME */
+.ecrit {
+    display: flex;
+}
+
+.imag img {
+    height: 40px;
+    width: 40px;
+}
+
+.confident {
+    display: flex;
+    margin-top: 80px;
+    background: linear-gradient(to right, #57585a, #cbdbf3);
+}
+
+/* en tete banniere */
+.ecrit_en_tete1{
+    padding-top: 100px;
+    padding-left: 100px;
+    color: white;
+    font-size: 1.5em;
+    background-image: url(/fond/HP/Q.jpg);
+    height: 400px;
+    /* width: 100%; */
+    /* background-size: cover; */
+    background-position: center;
+
+}
+/* en tet ecrite principal */
+.ecrit_en_tete{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-image: url(/fond/HP/titre.jpg);
+    height: 60px;
+    background-size: cover;
+}
+.ecrit_en_tete2{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(8, 8, 8);
+}
+
+/* SE que l'on offre */
+.service {
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.service1 {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+
+
+}
+
+
+.carte1 {
+    height: 400px;
+    width: 300px;
+}
+
+.image2 {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image2 img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ecrit2 p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+
+/* nos specialiste */
+.container1 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+}
+.image4 {
+    height: 400px;
+    width: 280px;
+
+}
+.image4 img {
+    width: 250px;
+    height: 250px;
+}
+.image4 h5 {
+    text-align: center;
+}
+
+.image4 h3 {
+    text-align: center;
+}

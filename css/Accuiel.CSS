@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    background-image: url(/fond/fond.jpeg);
+}
+
+/* C'est l'en tete et le logo  */
+header{
+    background-color: white;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+.logo span {
+    font-size: 12px;
+    color: rgb(13, 12, 12);
+
+}
+.logo h2{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+}
+
+.lien {
+    background-color: rgb(6, 6, 6);
+    padding: 25px 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.lien a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+}
+
+.risia {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.HP {
+    align-items: center;
+    padding-bottom: 2%;
+
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
+
+/* et maintenant c'est juste une img  D' en tete*/
+
+.container {
+    background-image: url(/fond/banniere.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+
+    position: relative;
+
+}
+
+.container .ecrit {
+    margin-top: 200px;
+    margin-left: 90px;
+
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+
+
+}
+
+/* la page de la depression   */
+.dépression {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+}
+
+.carte {
+
+    height: 500px;
+    width: 300px;
+    border: 1.75px solid black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.image {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.carte .ecrit p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* page qui parle nous "a propos " */
+.ecrit_en_tete {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-image: url(/fond/HP/titre.jpg);
+    height: 60px;
+    background-size: cover;
+
+}
+
+.a_propos {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.image1 img {
+    height: 400px;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 15px;
+
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.ecrit1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+/* lapage qui parle de "service" */
+.service {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+
+}
+
+.service1 {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+
+.carte1 {
+    height: 500px;
+    width: 300px;
+}
+
+.image2 {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image2 img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ecrit2 p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* La page de specialiste  */
+.container1 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+}
+.image4 {
+    height: 350px;
+    width: 280px;
+
+}
+.image4 img {
+    width: 250px;
+    height: 250px;
+}
+.image4 h5 {
+    text-align: center;
+}
+
+.image4 h3 {
+    text-align: center;
+}
+.ecrit4 p{
+    text-align: center;
+}

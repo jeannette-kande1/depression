@@ -1,0 +1,135 @@
+body{
+    background-image: url(/fond/fond.jpeg);
+}
+/* C'est l'en tete et le logo  */
+header{
+    background-color: white;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+.logo span {
+    font-size: 12px;
+    color: rgb(13, 12, 12);
+
+}
+.logo h2{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+}
+
+.lien {
+    background-color: rgb(6, 6, 6);
+    padding: 25px 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.lien a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+}
+
+.risia {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.HP {
+    align-items: center;
+    padding-bottom: 2%;
+
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
+/* DEBUT POUR LIMAGE ET LES ECRITS */
+
+.ecrit_en_tete1 {
+    padding-top: 100px;
+    padding-left: 100px;
+    color: white;
+    font-size: 1.5em;
+    background-image: url(/fond/HP/PS.jpg);
+    height: 400px;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
+
+}
+main{
+    padding: 40px;
+}
+
+/* partie des images */
+.container1 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    gap: 2%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container2 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    gap: 2%;
+    margin-top: 3%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+
+
+}
+
+.image4 {
+    height: 400px;
+    width: 300px;
+
+}
+
+.image4 h5 {
+    text-align: center;
+}
+
+.image4 h3 {
+    text-align: center;
+}
+
+.image4 img {
+    width: 250px;
+    height: 250px;
+}
+
+/* LA partie ecrit */
+.ecrit {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ecrit_en_tete {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(6, 6, 6);
+    /* background-image: url(fond/HP/titre.jpg);
+    height: 60px; */
+    /* background-size: cover; */
+
+}

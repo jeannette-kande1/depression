@@ -1,0 +1,193 @@
+body {
+    background-image: url(/fond/fond.jpeg);
+}
+
+/* bande de lien header */
+header {
+    background-color: white;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.logo span {
+    font-size: 12px;
+    color: rgb(13, 12, 12);
+
+}
+
+.logo h2 {
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+}
+
+.lien {
+    background-color: rgb(6, 6, 6);
+    padding: 25px 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.lien a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+}
+
+.risia {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.HP {
+    align-items: center;
+    padding-bottom: 2%;
+
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
+
+/* presentation */
+main {
+    padding: 40px;
+}
+
+.image2 img {
+    height: 400px;
+    width: 400px;
+}
+
+.carte1 {
+    display: flex;
+    background-color: #c7bcbc;
+    padding: 100px 100px;
+    height: 400px;
+
+}
+
+.ecrit2 p {
+    margin-left: 70px;
+}
+
+.ecrit2 h1 {
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.ecrit2 p {
+    font-size: 20px;
+}
+
+.s {
+    font-size: 20px;
+}
+
+/* offres des seances */
+.ecrit_en_tete {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-image: url(/fond/HP/titre.jpg);
+    height: 80px;
+    background-size: cover;
+    font-size: 30px;
+}
+
+.ecrit_en_tete1 h1 {
+    color: #14532d;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.ecrit_en_tete1 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.ecrit_en_tete1 h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 15px;
+    border-radius: 10px;
+
+}
+
+.horaire {
+    border: 4px solid #b2dfdb;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.horaire p {
+    margin: 8px 0;
+}
+
+.ecrit1 {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.ecrit {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    gap: 30px;
+}
+
+.ecrit_en_tete1 {
+    flex: 1;
+}
+
+button:hover {
+    background-color: #0c3b1d;
+}
+
+.button {
+    background-color: #14532d;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
